@@ -2,8 +2,8 @@
 public class CarApp {
 
 	public static void main(String[] args) {
-		Car porsche = new Car("red", "Porsche");
-		Car jetta = new Car("blue", "Jetta");
+		Car porsche = new Car("red", "Porsche", "bob", "01");
+		Car jetta = new Car("blue", "Jetta", "sue", "02");
 
 		System.out.println(porsche.goes("85"));
 
